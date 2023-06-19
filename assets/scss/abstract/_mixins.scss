@@ -1,0 +1,25 @@
+ 
+
+ @mixin atCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ @mixin backgroundClip{
+   background-image: linear-gradient(to right, $color-primary-light,$color-primary-dark);
+   background-clip: text;
+   -webkit-background-clip: text;
+   // -o-background-clip: text;
+   // -moz-background-clip: text;
+   color: transparent;
+   
+ }
+
+ @mixin boxshadow1{
+   box-shadow: 0 1rem 2rem rgba($color-dark, .2);
+ }
+
+ @mixin boxshadow2{
+   box-shadow: 0 .5rem 1rem rgba($color-dark, .2);
+ }

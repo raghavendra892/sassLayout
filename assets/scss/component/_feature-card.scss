@@ -1,0 +1,20 @@
+
+.feature-card{
+    padding: 1.563rem;
+    background-color: rgba($color-white, 0.8);
+    border-radius: 3px;
+    font-size: 1rem;
+    box-shadow: 0 1rem 2.5rem rgba($color-dark, 0.15);
+    transition: all .3s;
+    
+    &-icon{
+        display: inline-block;
+        font-size: 3.75rem;
+        margin-bottom: 5px;
+        @include backgroundClip;
+    }
+
+    &:hover,&:focus,&:active{
+        transform: translateY(-1rem) scale(1.05);
+    }
+}
